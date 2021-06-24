@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {FaInstagram ,FaGithub , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
+import CircleLogo from "../../../public/assets/images/logo/logo-symbol-dark.png"
 
 const SocialShare = [
     {Social: <FaGithub /> , link: 'https://www.github.com/defy1x'},
@@ -58,7 +59,7 @@ class HeaderThree extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Logo" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Logo" />;
+            logoUrl = <img src={CircleLogo} alt="Logo" />;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Logo" />;
         }else{
