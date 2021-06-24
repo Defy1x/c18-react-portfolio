@@ -20,7 +20,7 @@ import * as serviceWorker from './serviceWorker';
 class Root extends Component{
     render(){
         return(
-            <BrowserRouter basename={'/'}>
+            <BrowserRouter>
                 <PageScrollTop>
                     <Switch>
                         <Route component={DesignerPortfolio}/>
