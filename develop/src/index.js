@@ -23,8 +23,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`/`} component={DesignerPortfolio}/>
-                        <Route component={error404}/>
+                        <Route component={DesignerPortfolio}/>
                     </Switch>
                 </PageScrollTop>
             </BrowserRouter>
