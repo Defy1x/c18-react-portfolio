@@ -203,7 +203,7 @@ class TabStyleThree extends Component {
                                         <div className="portfolio-static">
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
-                                                  <a href="#portfolio-details">
+                                                    <a href={value.link}>
                                                       <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                   </a>
                                                 </div>
@@ -211,7 +211,7 @@ class TabStyleThree extends Component {
                                             <div className="content">
                                                 <div className="inner">
                                                     <p>{value.category}</p>
-                                                    <h4><a href="#portfolio-details">{value.title}</a></h4>
+                                                    <h4><a href={value.link}>{value.title}</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -249,7 +249,7 @@ class TabStyleThree extends Component {
                                         <div className="portfolio-static">
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
-                                                    <a href="#portfolio-details">
+                                                    <a href={value.link}>
                                                         <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
@@ -257,7 +257,7 @@ class TabStyleThree extends Component {
                                             <div className="content">
                                                 <div className="inner">
                                                     <p>{value.category}</p>
-                                                    <h4><a href="{#portfolio-details}">{value.title}</a></h4>
+                                                    <h4><a href={value.link}>{value.title}</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -295,7 +295,7 @@ class TabStyleThree extends Component {
                                         <div className="portfolio-static">
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
-                                                    <a href="#portfolio-details">
+                                                      <a href={value.link}>
                                                         <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
@@ -303,7 +303,7 @@ class TabStyleThree extends Component {
                                             <div className="content">
                                                 <div className="inner">
                                                     <p>{value.category}</p>
-                                                    <h4><a href="#portfolio-details">{value.title}</a></h4>
+                                                    <h4><a href={value.link}>{value.title}</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -341,7 +341,7 @@ class TabStyleThree extends Component {
                                         <div className="portfolio-static">
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
-                                                    <a href="#portfolio-details">
+                                                    <a href={value.link}>
                                                         <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
@@ -349,7 +349,7 @@ class TabStyleThree extends Component {
                                             <div className="content">
                                                 <div className="inner">
                                                     <p>{value.category}</p>
-                                                    <h4><a href="#portfolio-details">{value.title}</a></h4>
+                                                    <h4><a href={value.link}>{value.title}</a></h4>
                                                 </div>
                                             </div>
                                         </div>
