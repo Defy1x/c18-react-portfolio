@@ -15,7 +15,7 @@ New Portfolio in React JS.
 
 #Links
 ## Deployed React Portfolio: ( I AM NOT PUTTING MY PHONE # ON THIS)
-Coming soon
+https://defy1x.github.io/c18-react-portfolio/
 
 ## Github:
 https://github.com/Defy1x
