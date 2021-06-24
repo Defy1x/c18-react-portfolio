@@ -1,11 +1,10 @@
 import React from 'react';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaInstagram ,FaGithub , FaLinkedinIn } from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+  {Social: <FaGithub /> , link: 'https://www.github.com/defy1x'},
+  {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/casmcdonald'},
+  {Social: <FaInstagram /> , link: 'https://www.instagram.com/cas.slayer'},
 ]
 
 const FooterTwo = () => {
@@ -17,7 +16,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="/home-one">
-                                    <img src="/assets/images/logo/logo.png" alt="Logo images"/>
+                                    <img src="/assets/images/logo/logo.png" alt="Logo"/>
                                 </a>
                             </div>
                         </div>

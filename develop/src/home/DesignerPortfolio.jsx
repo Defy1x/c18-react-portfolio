@@ -31,6 +31,7 @@ const DesignerPortfolio = () => {
             <Header headerPosition="header--static" logo="symbol-dark" color="color-black"/>
             {/* End Header Area  */}
 
+          <div id="home">
             <div className="slider-wrapper">
                 {/* Start Single Slide */}
                 {SlideList.map((value , index) => (
@@ -60,9 +61,11 @@ const DesignerPortfolio = () => {
                             </div>
                         </div>
                     </div>
+
                 ))}
                 {/* End Single Slide */}
             </div>
+          </div>
 
             {/* Start About Area */}
             <div id="about" className="fix">
@@ -79,7 +82,7 @@ const DesignerPortfolio = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">About Me</h2>
-                                            <p className="description"></p>
+                                            <p className="description">NN/g Master Certified UX / UI Designer and Full Stack Developer with over 10+ years of experience based in New York City.</p>
                                         </div>
                                         <div className="row mt--30">
                                             <TabTwo tabStyle="tab-style--1" />
@@ -93,15 +96,18 @@ const DesignerPortfolio = () => {
             </div>
 
             {/* Start Designer Portfolio  */}
-            <div className="designer-portfolio-area ptb--120 bg_color--1">
-                <div className="wrapper plr--70 plr_sm--30 plr_md--30">
-                    <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
-                </div>
+            <div id="portfolio">
+              <div className="designer-portfolio-area ptb--120 bg_color--1">
+                  <div className="wrapper plr--70 plr_sm--30 plr_md--30">
+                      <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
+                  </div>
+              </div>
             </div>
             {/* End Designer Portfolio  */}
-
-            <div className="portfolio-area pb--120 bg_color--1">
-                <ContactOne />
+            <div id ="contact">
+              <div className="portfolio-area pb--120 bg_color--1">
+                  <ContactOne />
+              </div>
             </div>
 
             {/* Start Footer Style  */}

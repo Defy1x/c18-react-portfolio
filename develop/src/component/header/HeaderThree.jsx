@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
+import {FaInstagram ,FaGithub , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaGithub /> , link: 'https://www.github.com/defy1x'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/casmcdonald'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/cas.slayer'},
 ]
 class HeaderThree extends Component{
     constructor(props) {
@@ -71,9 +70,7 @@ class HeaderThree extends Component{
                 <div className="header-wrapper">
                     <div className="header-left d-flex align-items-center">
                         <div className="logo">
-                            <a href={this.props.homeLink}>
                                 {logoUrl}
-                            </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
                             <Scrollspy className="mainmenu" items={['home','about','portfolio','contact']} currentClassName="is-current" offset={-200}>
