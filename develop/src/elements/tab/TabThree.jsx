@@ -7,176 +7,142 @@ const TabOne = [
     {
         image: '01',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
-        category: 'Web Design',
-        title: 'Design is a creative part'
+        category: 'Web Application',
+        link: 'https://uxfol.io/project/03c0ede6/Queu-ed--Video-Game-Tracker-Application',
+        title: 'Video Game Tracking app using Front end, SQL, & Express & RAWG API.'
+
     },
     {
         image: '02',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
-        category: 'Mobile App',
-        title: 'The service provide for designer'
+        category: 'Web Application',
+        link:'https://www.casctrl.com/starwars/index.html',
+        title: 'Star Wars Personality Test built in HTML, CSS, & JS. Uses GIPHY and SWAPI.'
     },
     {
         image: '03',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-03.jpg',
-        category: 'Web Design',
-        title: 'Mobile App landing Design'
+        category: 'Web Application',
+        link: 'https://defy1x.github.io/c06-weather-app/',
+        title: 'Weather App built in JS that uses OpenWeatherApi.'
     },
     {
         image: '04',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-        category: 'Mobile App',
-        title: 'Logo Design creativity'
+        category: 'UX/ UI Design',
+        link: 'https://uxfol.io/project/040d8f47/S3-Partners-Website--Branding----Application-Design',
+        title: 'S3 Partners Website, Branding, & Application Design'
     },
     {
         image: '05',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
-        category: 'Web Design',
-        title: 'T-shirt design is the part of design'
+        category: 'UX/ UI Design',
+        link: 'https://uxfol.io/project/040d8f48/Websim-iOS-Application',
+        title: 'Websim iOS Application'
     },
     {
         image: '06',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
+        category: 'UX/ UI Design',
+        link: 'https://uxfol.io/project/045f5511/Jolt-UX-Case-Study',
+        title: 'Jolt UX React Native Application'
     },
     {
         image: '07',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        category: 'UX/ UI Design',
+        link: 'https://uxfol.io/project/0489b407/Thrive-UX-Case-Study-',
+        title: 'Thrive UX React Native Application'
     },
     {
         image: '08',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        category: 'UX/ UI Design',
+        link: 'https://uxfol.io/project/04b1f8e7/Website---Mobile-Design--Multiple-Projects-',
+        title: 'Collection of UI, and webdesign work'
     },
     {
         image: '09',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        category: 'Logo Design',
+        link: 'https://uxfol.io/project/04be405e/Logos---Illustration---Concept-Art--Multiple-Projects-',
+        title: 'Collection of logos, Illustration, & Concept Art'
     },
 
 ]
 
 
 const TabTwo = [
-    {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Logo design is the main part for a designer'
-    },
-    {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'App Landing',
-        title: 'Mobile App landign is a landing page design'
-    },
-    {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Dasboard',
-        title: 'Dasboard design is the main part for data management'
-    },
-    {
-        image: '10',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-10.jpg',
-        category: 'T-shirt Design',
-        title: 'T-shirt design is the popular design for digital market'
-    },
-    {
-        image: '11',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-11.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
-    },
+  {
+      image: '01',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
+      category: 'Web Application',
+      link: 'https://uxfol.io/project/03c0ede6/Queu-ed--Video-Game-Tracker-Application',
+      title: 'Video Game Tracking app using Front end, SQL, & Express & RAWG API.'
+
+  },
+  {
+      image: '02',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
+      category: 'Web Application',
+      link:'https://www.casctrl.com/starwars/index.html',
+      title: 'Star Wars Personality Test built in HTML, CSS, & JS. Uses GIPHY and SWAPI.'
+  },
+  {
+      image: '03',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-03.jpg',
+      category: 'Web Application',
+      link: 'https://defy1x.github.io/c06-weather-app/',
+      title: 'Weather App built in JS that uses OpenWeatherApi.'
+  },
 ]
 
 const TabThree = [
-    {
-        image: '04',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-        category: 'Mobile App',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '05',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
-        category: 'Web Design',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
+  {
+      image: '04',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
+      category: 'UX/ UI Design',
+      link: 'https://uxfol.io/project/040d8f47/S3-Partners-Website--Branding----Application-Design',
+      title: 'S3 Partners Website, Branding, & Application Design'
+  },
+  {
+      image: '05',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
+      category: 'UX/ UI Design',
+      link: 'https://uxfol.io/project/040d8f48/Websim-iOS-Application',
+      title: 'Websim iOS Application'
+  },
+  {
+      image: '06',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
+      category: 'UX/ UI Design',
+      link: 'https://uxfol.io/project/045f5511/Jolt-UX-Case-Study',
+      title: 'Jolt UX React Native Application'
+  },
+  {
+      image: '07',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
+      category: 'UX/ UI Design',
+      link: 'https://uxfol.io/project/0489b407/Thrive-UX-Case-Study-',
+      title: 'Thrive UX React Native Application'
+  },
+  {
+      image: '08',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
+      category: 'UX/ UI Design',
+      link: 'https://uxfol.io/project/04b1f8e7/Website---Mobile-Design--Multiple-Projects-',
+      title: 'Collection of UI, and webdesign work'
+  },
 ]
 
 const TabFour = [
-    {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '10',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-10.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '11',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-11.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
-    },
+  {
+      image: '09',
+      bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
+      category: 'Logo Design',
+      link: 'https://uxfol.io/project/04be405e/Logos---Illustration---Concept-Art--Multiple-Projects-',
+      title: 'Collection of logos, Illustration, & Concept Art'
+  },
 ]
 
 class TabStyleThree extends Component {
@@ -201,7 +167,7 @@ class TabStyleThree extends Component {
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
                                     <Tab><span>All Projects</span></Tab>
-                                    <Tab><span>Web Applications</span></Tab>
+                                    <Tab><span>Web Application</span></Tab>
                                     <Tab><span>UX/UI Design</span></Tab>
                                     <Tab><span>Logo Design</span></Tab>
                                 </TabList>
@@ -237,9 +203,9 @@ class TabStyleThree extends Component {
                                         <div className="portfolio-static">
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
-                                                    <a href="#portfolio-details">
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
-                                                    </a>
+                                                  <a href="#portfolio-details">
+                                                      <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                  </a>
                                                 </div>
                                             </div>
                                             <div className="content">
@@ -291,7 +257,7 @@ class TabStyleThree extends Component {
                                             <div className="content">
                                                 <div className="inner">
                                                     <p>{value.category}</p>
-                                                    <h4><a href="#portfolio-details">{value.title}</a></h4>
+                                                    <h4><a href="{#portfolio-details}">{value.title}</a></h4>
                                                 </div>
                                             </div>
                                         </div>

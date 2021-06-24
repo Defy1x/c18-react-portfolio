@@ -31,6 +31,7 @@ https://www.casctrl.com/assets/Casandra-McDonald-Resume.pdf
 ![This is the final deployed screenshot of the portfolio](requirements/screenshot-01.png)
 ![This is the final deployed screenshot of the portfolio](requirements/screenshot-02.png)
 ![This is the final deployed screenshot of the portfolio](requirements/screenshot-03.png)
+![This is the final deployed screenshot of the portfolio](requirements/screenshot-04.png)
 
 ## Requirements
 
