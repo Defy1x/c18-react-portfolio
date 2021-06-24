@@ -133,9 +133,6 @@ Your resume should include:
 
 ```
 
-
-
-
 #Credits
 Thank you to everyone in the Columbia Engineering Bootcamp.
 
