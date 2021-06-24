@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Defy1x/c18-react-portfolio/static/css/main.ea9b8206.chunk.css",
-    "main.js": "/Defy1x/c18-react-portfolio/static/js/main.e966da9f.chunk.js",
-    "main.js.map": "/Defy1x/c18-react-portfolio/static/js/main.e966da9f.chunk.js.map",
-    "runtime~main.js": "/Defy1x/c18-react-portfolio/static/js/runtime~main.dde30434.js",
-    "runtime~main.js.map": "/Defy1x/c18-react-portfolio/static/js/runtime~main.dde30434.js.map",
-    "static/css/2.a1efe26c.chunk.css": "/Defy1x/c18-react-portfolio/static/css/2.a1efe26c.chunk.css",
-    "static/js/2.37557166.chunk.js": "/Defy1x/c18-react-portfolio/static/js/2.37557166.chunk.js",
-    "static/js/2.37557166.chunk.js.map": "/Defy1x/c18-react-portfolio/static/js/2.37557166.chunk.js.map",
-    "index.html": "/Defy1x/c18-react-portfolio/index.html",
-    "precache-manifest.06c3b0ef5e31f4b7a75bc89b84b72336.js": "/Defy1x/c18-react-portfolio/precache-manifest.06c3b0ef5e31f4b7a75bc89b84b72336.js",
-    "service-worker.js": "/Defy1x/c18-react-portfolio/service-worker.js",
-    "static/css/2.a1efe26c.chunk.css.map": "/Defy1x/c18-react-portfolio/static/css/2.a1efe26c.chunk.css.map",
-    "static/css/main.ea9b8206.chunk.css.map": "/Defy1x/c18-react-portfolio/static/css/main.ea9b8206.chunk.css.map",
-    "static/media/index.scss": "/Defy1x/c18-react-portfolio/static/media/slick.f97e3bbf.svg"
+    "main.css": "/c18-react-portfolio/static/css/main.ea9b8206.chunk.css",
+    "main.js": "/c18-react-portfolio/static/js/main.b3b3b0b8.chunk.js",
+    "main.js.map": "/c18-react-portfolio/static/js/main.b3b3b0b8.chunk.js.map",
+    "runtime~main.js": "/c18-react-portfolio/static/js/runtime~main.f71681e3.js",
+    "runtime~main.js.map": "/c18-react-portfolio/static/js/runtime~main.f71681e3.js.map",
+    "static/css/2.ba8c14c2.chunk.css": "/c18-react-portfolio/static/css/2.ba8c14c2.chunk.css",
+    "static/js/2.37557166.chunk.js": "/c18-react-portfolio/static/js/2.37557166.chunk.js",
+    "static/js/2.37557166.chunk.js.map": "/c18-react-portfolio/static/js/2.37557166.chunk.js.map",
+    "index.html": "/c18-react-portfolio/index.html",
+    "precache-manifest.a03070f80c851eaa5da21d6c216e21cc.js": "/c18-react-portfolio/precache-manifest.a03070f80c851eaa5da21d6c216e21cc.js",
+    "service-worker.js": "/c18-react-portfolio/service-worker.js",
+    "static/css/2.ba8c14c2.chunk.css.map": "/c18-react-portfolio/static/css/2.ba8c14c2.chunk.css.map",
+    "static/css/main.ea9b8206.chunk.css.map": "/c18-react-portfolio/static/css/main.ea9b8206.chunk.css.map",
+    "static/media/index.scss": "/c18-react-portfolio/static/media/slick.f97e3bbf.svg"
   }
 }
