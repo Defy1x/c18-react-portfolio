@@ -1,9 +1,9 @@
 {
   "name": "develop",
-  "version": "0.1.0",
-  "private": true,
   "author": "Cas",
+  "version": "0.1.0",
   "homepage": "https://github.com/Defy1x/c18-react-portfolio",
+  "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -88,7 +88,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
