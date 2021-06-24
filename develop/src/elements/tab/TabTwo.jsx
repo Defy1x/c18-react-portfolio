@@ -76,6 +76,9 @@ class TabsTwo extends Component{
                                                    <strong>Interaction Design Foundation </strong><span>- 15x UX/UI Certifications,</span> 2019- 2020
                                                </li>
                                                <li>
+                                                   <strong>New York University </strong><span>- Principles of UX Design in AR and VR,</span> 2019- 2020
+                                               </li>
+                                               <li>
                                                    <strong>Scrum Alliance </strong><span>- Scrum Master Certification,</span> 2019- Current
                                                </li>
                                                <li>
