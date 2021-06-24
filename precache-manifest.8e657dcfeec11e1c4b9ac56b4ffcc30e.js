@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92e4cb0ed810ba5400387bb00e7e2726",
+    "revision": "9b02fe95545295b4b73d349df35819a8",
     "url": "/Defy1x/c18-react-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Defy1x/c18-react-portfolio/static/css/2.a1efe26c.chunk.css"
   },
   {
-    "revision": "9f2c2d11ffed243a3f82",
+    "revision": "9f886ac15feedb51574b",
     "url": "/Defy1x/c18-react-portfolio/static/css/main.ea9b8206.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Defy1x/c18-react-portfolio/static/js/2.37557166.chunk.js"
   },
   {
-    "revision": "9f2c2d11ffed243a3f82",
-    "url": "/Defy1x/c18-react-portfolio/static/js/main.fee9f9e9.chunk.js"
+    "revision": "9f886ac15feedb51574b",
+    "url": "/Defy1x/c18-react-portfolio/static/js/main.e295da3e.chunk.js"
   },
   {
     "revision": "efc104c9e1bbc2c02d39",
