@@ -1,17 +1,62 @@
-import React from 'react';
+// React Required
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// Create Import File
+import './index.scss';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import PageScrollTop from './component/PageScrollTop';
+
+// Home layout
+import DesignerPortfolio from './home/DesignerPortfolio';
+
+// Element Layout
+import Service from "./elements/Service";
+import ServiceDetails from "./elements/ServiceDetails";
+import About from "./elements/About";
+import Contact from "./elements/Contact";
+import PortfolioDetails from "./elements/PortfolioDetails";
+import Blog from "./elements/Blog";
+import BlogDetails from "./elements/BlogDetails";
+import error404 from "./elements/error404";
+
+
+// Blocks Layout
+import Team from "./blocks/Team";
+import Counters from "./blocks/Counters";
+import Testimonial from "./blocks/Testimonial";
+import Portfolio from "./blocks/Portfolio";
+import VideoPopup from "./blocks/VideoPopup";
+import Gallery from "./blocks/Gallery";
+import Brand from "./blocks/Brand";
+import ProgressBar from "./blocks/ProgressBar";
+import ContactForm from "./blocks/ContactForm";
+import GoogleMap from "./blocks/GoogleMap";
+import Columns from "./blocks/Columns";
+import PricingTable from "./blocks/PricingTable";
+
+import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import * as serviceWorker from './serviceWorker';
+
+
+class Root extends Component{
+    render(){
+        return(
+            <BrowserRouter basename={'/'}>
+                <PageScrollTop>
+                    <Switch>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DesignerPortfolio}/>
+
+
+                        <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
+                        <Route component={error404}/>
+
+                    </Switch>
+                </PageScrollTop>
+            </BrowserRouter>
+        )
+    }
+}
+
+ReactDOM.render(<Root/>, document.getElementById('root'));
+serviceWorker.register();
