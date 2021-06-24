@@ -12,6 +12,24 @@
 ## Description:
 New Portfolio in React JS.
 
+
+#Links
+## Deployed React Portfolio: ( I AM NOT PUTTING MY PHONE # ON THIS)
+Coming soon
+
+## Github:
+https://github.com/Defy1x
+
+## Linkedin:
+https://www.linkedin.com/in/casmcdonald/
+
+## Resume:
+https://www.casctrl.com/assets/Casandra-McDonald-Resume.pdf
+
+#Usage
+## Final screenshot
+![This is the final deployed screenshot of the portfolio](requirements/screenshot.png)
+
 ## Requirements
 
 ```
@@ -115,17 +133,8 @@ Your resume should include:
 
 ```
 
-This homework was very difficult and used all of the previous homework assignments code including working with APIs. I am super happy to have finished this.
 
-#Links
-## Deployed Link:
-https://defy1x.github.io/c08-cas-new-portfolio/index.html
 
-#Usage
-## Final screenshot
-![This is the final deployed screenshot of the day planner](requirements/screenshot.png)
-
-This is my portfolio. I am very proud of this.
 
 #Credits
 Thank you to everyone in the Columbia Engineering Bootcamp.

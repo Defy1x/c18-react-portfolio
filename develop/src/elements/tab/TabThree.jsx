@@ -58,7 +58,7 @@ const TabOne = [
         category: 'Logo Designer',
         title: 'Getting tickets to the big show'
     },
-   
+
 ]
 
 
@@ -200,10 +200,10 @@ class TabStyleThree extends Component {
                         <div className="col-lg-12">
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
-                                    <Tab><span>All Project</span></Tab>
-                                    <Tab><span>Web Design</span></Tab>
+                                    <Tab><span>All Projects</span></Tab>
+                                    <Tab><span>Full Stack Applications</span></Tab>
+                                    <Tab><span>UX/UI Design</span></Tab>
                                     <Tab><span>Logo Design</span></Tab>
-                                    <Tab><span>Mobile App</span></Tab>
                                 </TabList>
                             </div>
                         </div>
@@ -254,7 +254,7 @@ class TabStyleThree extends Component {
                             </div>
                         ))}
                     </TabPanel>
-            
+
                     <TabPanel className="row row--35">
                         {TabTwo.map((value , index) => (
                             <div className={`${column}`} key={index}>
