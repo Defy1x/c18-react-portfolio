@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Image6 from "../../../public/assets/images/about/about-6.jpg"
 
 class ContactOne extends Component{
     render(){
@@ -18,7 +17,7 @@ class ContactOne extends Component{
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src={Image6} alt="Cas McDonald"/>
+                              <img src={`${ process.env.PUBLIC_URL }/assets/images/about/about-6.jpg`} alt="Cas McDonald"/>
                             </div>
                         </div>
                     </div>

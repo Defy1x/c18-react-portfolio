@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-import Port1 from "../../../public/assets/images/portfolio/big/dp-big--portfolio-01.jpg"
 
 const TabOne = [
     {

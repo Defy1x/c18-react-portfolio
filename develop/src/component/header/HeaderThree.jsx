@@ -59,7 +59,7 @@ class HeaderThree extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Logo" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src={CircleLogo} alt="Logo" />;
+            logoUrl = <img src={`${ process.env.PUBLIC_URL }/assets/images/logo/logo-symbol-dark.png`} alt="logo"/>;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Logo" />;
         }else{
