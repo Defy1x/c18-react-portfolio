@@ -11,8 +11,6 @@ import Brand from "../elements/Brand";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
-import Avatar from "../../public/assets/images/about/designer-avatar.png"
-import Image8 from "../../public/assets/images/about/about-8.jpg"
 
 const SlideList = [
     {
@@ -42,7 +40,7 @@ const DesignerPortfolio = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="designer-thumbnail">
-                                        <img src={Avatar} alt="Slider Images"/>
+                                        <img src={ `${ process.env.PUBLIC_URL }/assets/images/about/designer-avatar.png` } alt="Slider Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 mt_md--40 mt_sm--40">
@@ -77,7 +75,7 @@ const DesignerPortfolio = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src={Image8} alt="About Images"/>
+                                        <img className="w-100" src={`${ process.env.PUBLIC_URL }/assets/images/about/about-8.jpg`} alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
