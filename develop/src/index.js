@@ -14,7 +14,6 @@ import DesignerPortfolio from './home/DesignerPortfolio';
 import error404 from "./elements/error404";
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
-import * as serviceWorker from './serviceWorker';
 
 
 class Root extends Component{
@@ -32,4 +31,3 @@ class Root extends Component{
 }
 
 ReactDOM.render(<Root/>, document.getElementById('root'));
-serviceWorker.register();

@@ -15,7 +15,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
-                            <img src={process.env.PUBLIC_URL + 'assets/images/logo/logo.png'} />;
+                            <img src={`${ process.env.PUBLIC_URL }/assets/images/logo/logo.png`} />;
                             </div>
                         </div>
                     </div>
