@@ -48,7 +48,7 @@ const DesignerPortfolio = () => {
                                         {value.category ? <span>{value.category}</span> : ''}
                                         <h1 className="title">Hi, I’m Cas McDonald. <br/>
                                         <TextLoop>
-                                            <span> Fullstack Developer.</span>
+                                            <span> Fullstack Dev.</span>
                                             <span> UX Designer.</span>
                                             <span> UI Designer.</span>
                                         </TextLoop>{" "}
