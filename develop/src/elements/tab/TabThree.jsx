@@ -204,7 +204,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={value.link}>
-                                                      <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                      <img src={`${ process.env.PUBLIC_URL }/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                   </a>
                                                 </div>
                                             </div>
@@ -250,7 +250,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={value.link}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${ process.env.PUBLIC_URL }/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>
@@ -296,7 +296,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                       <a href={value.link}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${ process.env.PUBLIC_URL }/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>
@@ -342,7 +342,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={value.link}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${ process.env.PUBLIC_URL }/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>

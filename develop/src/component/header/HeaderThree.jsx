@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {FaInstagram ,FaGithub , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
-import CircleLogo from "../../../public/assets/images/logo/logo-symbol-dark.png"
 
 const SocialShare = [
     {Social: <FaGithub /> , link: 'https://www.github.com/defy1x'},
